@@ -33,5 +33,5 @@ git clone https://github.com/zhejilab/MetNet
 
 - **Download interested microarray data:** For example, Cancer Cell Line Encyclopedia (CCLE) database (https://portals.broadinstitute.org/ccle/) provides the RNA characterization of more than 1000 cancer cell lines.
 
-- **Run the Algorithm:** Rscript coExp.R -p 25 -s 0.01 -f 0.01 -o coexpressed.csv
+- **Run the Algorithm:** Rscript coExp.R -p 25 -s 0.01 -f 0.01 -o ./
 
