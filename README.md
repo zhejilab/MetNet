@@ -1,4 +1,4 @@
-# Co-Expression Algorithm from Microarray Data
+# Comparative analyses of gene regulatory networks mediating cancer metastatic potentials across lineage types. Wang, et al, 2024
 
 ## Overview
 
