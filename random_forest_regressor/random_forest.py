@@ -3,14 +3,11 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import itertools
 import scipy.stats
-import os
 import sys
 
-from sklearn.tree import DecisionTreeClassifier
-from sklearn.model_selection import train_test_split, GridSearchCV
+from sklearn.model_selection import train_test_split, GridSearchCV, cross_val_score
 from sklearn.ensemble import RandomForestRegressor
 from sklearn.metrics import accuracy_score, confusion_matrix, classification_report, roc_curve, auc, mean_squared_error
-from sklearn.model_selection import cross_val_score
 
 out_path = sys.argv[3]
 
