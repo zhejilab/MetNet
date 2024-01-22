@@ -34,7 +34,7 @@ This repository contains the code implementation of algriothms and figures in "C
 - **-p --patience:** Number of iterations to wait for the FDR values to stabilize. Stabilization is defined as the difference not being greater than a certain threshold value (default 25).
 - **-s --stabilization_threshold:** The threshold value used to determine stabilization. If the difference between n iterations is not greater than this threshold, the algorithm considers the values stabilized (default 0.01).
 - **-f --fdr:** FDR values to remove poorly coexpressed modules. (default 0.01).
-- **-o --fdr:** Output directory
+- **-o --output:** Output directory
 
 ## random_forest_regressor
 
