@@ -40,7 +40,7 @@ This repository contains the code implementation of algriothms and figures in "C
 
 python ../random_forest.py x.csv y.csv ./example_output
 
-- **Arg 1** Attibutes table
-- **Arg 2** Targets table
-- **Arg 3** Output directory
+- **Arg 1:** Attibutes table
+- **Arg 2:** Targets table
+- **Arg 3:** Output directory
 
