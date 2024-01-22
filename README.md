@@ -23,7 +23,6 @@ This repository contains the code implementation of algriothms and figures in "C
 ### Requirements
 
 - R (>= 4.0.3)
-- python 
 
 ### Usage
 
@@ -37,6 +36,12 @@ This repository contains the code implementation of algriothms and figures in "C
 - **-o --output:** Output directory
 
 ## random_forest_regressor
+
+### Requirements
+
+- python 
+
+### Usage
 
 python ../random_forest.py x.csv y.csv ./example_output
 
