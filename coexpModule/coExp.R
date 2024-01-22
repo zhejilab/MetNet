@@ -99,11 +99,14 @@ recursion_func <- function(mean_cen_pc_data, gene_list, threshold1=0.017, thresh
   }
 }
 
+
 data <- read.csv(option_list[[1]], row.names = 1, check.names = F)
 mean_cen_data  <- data - rowMeans(data)
 mean_cen_data 
 
-cor_mat <- cor(t(pc_data[rownames(pc_data) %in% option_list[[2]], ]), method = "spearman")
+genes <- unlist(str_split(option_list[[2]], ","))
+
+cor_mat <- cor(t(pc_data[rownames(pc_data) %in% genes , ]), method = "spearman")
 dim(cor_mat)
 
 fdrs <- auto_shuffle(cor_mat, fdr = 0.01, shuffle_num = 1000, fdr, break_threshold = option_list[[3]], patience=option_list[[4]])
