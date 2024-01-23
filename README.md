@@ -28,7 +28,7 @@ This repository contains the code implementation of algriothms and figures in "C
 
 - **Run the Algorithm:** Rscript coExp.R -d ccle.csv -p 25 -s 0.01 -g CDH3,PTPRU,MPZL2,PAK4,BAIAP2,AGR2,SPINT2,HPSE,RAB10,PKP3,CLDN4,CLDN3,CLDN7,PLEKHA7,CXADR,DLG3,DSC2,DSG2,DSP,EFNA1,EFNB2,EMP2,EPHA1,EPHB3,EPHB4,ERBB2,ERBB3,FOLR1,CD2AP,TRIM29,FUT1,NPNT,LYPD3,TNFRSF21,ANK3,RHOD,FOXA1,HES1,IL18,ITGA6,ITGB4,JAG2,JUP,LAMA5,LAMB3,LAMC2,BCAM,TACSTD2,EPCAM,CD46,NRARP,ASS1,MUC1,CEACAM6,ATP1B1,MINK1,F11R,PKP2,PLXNB1,EPB41L4B,VSIG10,FERMT1,PRKCZ,BAIAP2L1,CCL28,PSEN1,IGSF9,EPB41L5,PTPRF,CEACAM1,PERP,SOX9,STX3,EZR,WNT7B,DDR1,GRHL2,ANXA9,PPFIA1,PKP4,ADAM15,CLDN1,CD9,KLF4,TJP2,SOX13,SLK,DGCR2,CDH1 -f 0.01 -o ./
 
-- **-d --data:** Input microsarry data
+- **-d --data:** Input microarray data
 - **-g --gene:** Genes of interested (delimited by comma)
 - **-p --patience:** Number of iterations to wait for the FDR values to stabilize. Stabilization is defined as the difference not being greater than a certain threshold value (default 25).
 - **-s --stabilization_threshold:** The threshold value used to determine stabilization. If the difference between n iterations is not greater than this threshold, the algorithm considers the values stabilized (default 0.01).
